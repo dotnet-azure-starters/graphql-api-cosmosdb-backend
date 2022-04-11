@@ -1,0 +1,43 @@
+scalar DateTime
+scalar Date
+scalar MultiplierPath
+scalar TimeSpan
+scalar UUID
+scalar Long
+
+enum SortEnumType {
+    ASC
+    DESC
+}
+
+type Query {
+    #Sites
+    sites(offset: Int, limit: Int): SitesResponse
+    siteBySiteNumber(siteNumber: String!): Site    
+}
+
+
+interface PagedResponse {
+    hasNextPage: Boolean!
+    hasPreviousPage: Boolean!
+    totalCount: Int!
+    hasErrors: Boolean!
+    messages: [String]
+    itemCount: Int!
+}
+
+type SitesResponse implements PagedResponse {
+    items: [Site]
+    hasNextPage: Boolean!
+    hasPreviousPage: Boolean!
+    totalCount: Int!
+    hasErrors: Boolean!
+    messages: [String]
+    itemCount: Int!
+}
+
+type Site {
+    siteNumber: String!
+    siteName: String!
+    siteAddress: String!
+}
