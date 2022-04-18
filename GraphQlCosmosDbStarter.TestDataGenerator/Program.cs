@@ -9,10 +9,9 @@ internal class Program
 {
     private static readonly string CosmosDbConnectionString = "";
 
-    private Container _container;
-
-    private CosmosClient _cosmosClient;
-    private Database _database;
+    private Container? _container;
+    private CosmosClient? _cosmosClient;
+    private Database? _database;
 
     //The name of the container we will create
     private readonly string containerId = "sites";
