@@ -9,7 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQlCosmosDbStarter.Data
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E106C06A-C034-44FC-A7D0-EB0139616264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQlCosmosDbStarter.TestDataGenerator", "GraphQlCosmosDbStarter.TestDataGenerator\GraphQlCosmosDbStarter.TestDataGenerator.csproj", "{B5B79852-3DC3-44F2-A2BC-08AA47EDC123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQlCosmosDbStarter.TestDataGenerator", "GraphQlCosmosDbStarter.TestDataGenerator\GraphQlCosmosDbStarter.TestDataGenerator.csproj", "{B5B79852-3DC3-44F2-A2BC-08AA47EDC123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9F54058D-A98E-452A-B97B-C2AD07A9F41E}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		GraphQl-CosmosDb-Starter.sln.DotSettings = GraphQl-CosmosDb-Starter.sln.DotSettings
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
