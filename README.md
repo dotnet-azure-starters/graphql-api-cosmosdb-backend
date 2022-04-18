@@ -2,6 +2,9 @@
 ## What is the purpose of this template?
 One stop template for anyone wanting to create a GraphQL API in .NET that connects to multiple CosmosDb instances to fetch data.
 
+## Target architecture
+![Target architecture](https://github.com/dotnet-azure-starters/graphql-api-cosmosdb-backend/blob/main/GraphQlArchitecture.png)
+
 ### Prerequisites
 - [What is GraphQL]
 - [What is Hot Chocolate GraphQL Server For .NET]
